@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #cecbcb;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF6452;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #da3422;
+}
+.mobile-nav {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 40%;
+  height: 100vh;
+  background-color: white;
+  padding: 20px;
+  z-index: 999;
+  
+}
+.z-index {
+  z-index: 1;
+}
+
+
